@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #002f59;
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+nav{
+    background-color: #3378b5;
+    overflow: hidden;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav li:first-of-type{
+    margin-right: 100px;
+}
+
+nav li{
+    display: inline-block;
+    float: right;
+    padding: 15px;
+    font-size: 20px;
+}
+
+nav li:hover{
+    background-color: #002f59;
+}
+
+.introduction{
+    overflow: hidden;
+}
+
+.introduction img{
+    width: 15%;
+    border-radius: 8px;
+    height: auto;
+    margin: 100px 0 0 100px;
+    display: inline-block;
+    float: left;
+}
+
+.introduction h1{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 100px;
+    color: #b5b5b5;
+    font-size: 40px;
+}
+
+.introduction #intro-p{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+    width: 60%;
+    color: white;
+}
+
+.below-picture{
+    display: inline-block;
+    font-size: 28px;
+    margin-left: 103px;
+    margin-top: 5px;
+}
+
+.below-picture p{
+    color: white;
+}
+
+#to-top{
+    width: 5%;
+    margin: 0;
+    bottom: 50px;
+    right: 50px;
+    color: white;
+    position: fixed;
+}
+
+.below-picture img{
+    width: 40px;
+    margin-left: 47px;
+    margin-top: 10px;
+    transition: all .2s ease-in-out;
+}
+
+#facebook-icon{
+    margin-left: 0;
+}
+
+.below-picture img:hover{
+    transform: scale(1.2);
+}
+
+.skills-div{
+    width: 95%;
+    margin: auto;
+}
+.skills-div h1, .hobbies-div h1{
+    color: white;
+    font-size: 40px;
+}
+
+.skills-div img{
+    width: 150px;
+    margin-left: 170px;
+}
+
+.skills-div img:first-of-type{
+    margin-left: 0;
+    width: 150px;
+}
+
+.text-below-skill{
+    float: left;
+    margin-left: 234px;
+    font-size: 20px;
+    color: white;
+}
+
+#first-skill{
+    margin-left: 15px;
+}
+
+.hobbies-div h1{
+    margin: 30px;
+}
+.hobbies-div{
+    width: 1320px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hobbies-par{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+    width: 60%;
+    color: white;
+}
+
+.cpp-div img{
+    width: 150px;
+    margin-top: 10px;
+}
+h2{
+    color: white;
+}
+#cpp-h2{
+    margin-top: 50px;
+}
+#c-h2{
+    margin-top: 50px;
+}
+#PS-h2{
+    margin-top: 50px;
+}
+
+
+#first-skill:hover{
+    color: #3378b5;
+}
+
+.gallery{
+    overflow: hidden;
+    width: 1320px;
+    margin: auto;
+    margin-top: 30px;
+}
+.gallery img{
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.before h1{
+    color: white;
+    margin-left: 330px;
+    overflow: hidden;
+}
+.after h1{
+    color: white;
+    margin-left: 210px;
+    overflow: hidden;
+}
+.before{
+    width: 610px;
+    float: left;
+    overflow: hidden;
+}
+.after{
+    width: 610px;
+    float: right;
+    overflow: hidden;
+}
+.before-img{
+    width: 300px;
+    height: 365px;
+    object-fit: cover;
+    margin-left: 220px;
+}
+.after-img{
+    width: 300px;
+    height: 365px;
+    object-fit: cover;
+    margin-left: 91px;
+}
+#guitar-h2{
+    margin-top: 50px;
+}
+#sadness{
+    margin-left: 320px;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 350px;
+    display: inline-block;
+}
+#NEM{
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 335px;
+    display: inline-block;
+    float: right;
+    margin-right: 288px;
+}
+.below-video{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#below-sadness{
+    margin-left: 355px;
+    display: inline-block;
+}
+#below-NEM{
+    display: inline-block;
+    float: right;
+    margin-right: 330px;
+}
+
+#master {
+    margin-top: 30px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+table {
+    display: table;
+    width: 1000px;
+    table-layout: fixed;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: #85B3D1FF;
+    font-size: 18px;
+    height: 35px;
+}
+
+table,
+th,
+td {
+    border: solid 2px;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.time {
+    background-color: #85B3D1FF;
+    height: 35px;
+    font-size: 18px;
+}
+
+.class {
+    background-color: #2460A7FF;
+    height: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.empty{
+    background-color: #B3C7D6FF;
+    height: 10px;
+    text-align: center;
+    font-size: 15px;
+}
